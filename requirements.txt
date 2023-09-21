@@ -1,0 +1,28 @@
+pysolar==0.9.0 
+fpdf==1.7.2 
+tqdm==4.62.3 
+xarray 
+bottleneck 
+netcdf4 
+dask 
+pyqtgraph
+PyQt5
+requests
+h5py
+matplotlib
+scipy
+# conda
+#   - python
+#   - conda-env
+#   - conda-build
+#   - conda-verify
+#   - _ipyw_jlab_nb_ext_conf
+#   - anaconda
+#   - anaconda-navigator
+#   - navigator-updater
+#   - xarray
+#   - bottleneck
+#   - netcdf4
+#   - dask
+#   - pyqtgraph
+#   - pip

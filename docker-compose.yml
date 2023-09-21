@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+    HyperCP:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: hypercp:development
+        restart: unless-stopped
+        container_name: HyperCP-development
+        environment:
+            - DISPLAY=$DISPLAY
+            
+        ports:
+            - 8000:8000
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix       
+            - .:/app
+            
