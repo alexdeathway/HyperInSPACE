@@ -6,7 +6,7 @@ services:
             context: .
             dockerfile: Dockerfile
         image: hypercp:development
-        restart: unless-stopped
+        #restart: unless-stopped
         container_name: HyperCP-development
         environment:
             - DISPLAY=$DISPLAY

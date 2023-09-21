@@ -20,6 +20,8 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt \
 
 
 WORKDIR /app
-COPY . .
+USER qtuser:qtuser
+COPY --chown=qtuser:qtuser . .
+
 
 CMD [ "python3", "Main.py" ]
